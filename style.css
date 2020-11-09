@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.landing-box{
+	width: 50%;
+	padding: 20vh 0;
+	margin: auto;
+	text-align: center;
+}
+
+.landing-box h1{
+	font-size: 8vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+.landing-box h5{
+	font-size: 3vh;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+}
+
+#play{
+	display: inline-block;
+	padding-top: 8vh;
+	width: 10;
+}
+
+#play p{
+	font-size: 10vh;
+	cursor: pointer;
+}
+
+#play p:hover{
+	color: grey;
+	transition: color 0.5s;
+}
