@@ -29,7 +29,6 @@ function setup() {
 function draw() {
 	if(state == 0){
 		time = map(mouseX, 0, width, 0, 100);
-		console.log(time);
 		drawSky();
 		drawSun();
 	}
@@ -63,7 +62,6 @@ function drawSun(){
 	let x = cos(theta) * width * 1.2;
 	let y = sin(theta) * height;
 	ellipse(x,y,width/20,width/20);
-	console.log(theta);
 	pop();
 }
 

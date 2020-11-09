@@ -8,7 +8,7 @@ canvas {
 
 .landing-box{
 	width: 50%;
-	padding: 20vh 0;
+	padding: 20vh 0 0 0;
 	margin: auto;
 	text-align: center;
 }
@@ -26,16 +26,17 @@ canvas {
 
 #play{
 	display: inline-block;
-	padding-top: 8vh;
-	width: 10;
+	padding: 0 0 5vh 0;
 }
 
 #play p{
 	font-size: 10vh;
+	color: black;
+	transition: 0.5s;
 	cursor: pointer;
 }
 
 #play p:hover{
-	color: grey;
-	transition: color 0.5s;
+	color: #fff305;
+	transition: 0.5s;
 }
