@@ -1,27 +1,94 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 canvas {
   display: block;
 }
 
+#cc {
+	background-color:#DDD;
+	border-radius:14px;
+	position: fixed;
+	top: 1vh;
+	right: 1vw;
+	cursor:pointer;
+	color:black;
+	font-family: 'Quicksand', sans-serif;
+	font-style: bold;
+	font-size: 3vmin;
+	padding:9px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #383838;
+}
+
+#cc:hover {
+	background-color:#CCC;
+}
+
+#cc:active {
+	position: fixed;
+	top: 1.1vh;
+	right: 1vw;
+}
+
+#captions{
+	position: fixed;
+	width: 100%;
+	bottom: 3vh;
+	text-align: center;
+	opacity: 0;
+	transition: 0.2s;
+}
+
+#captions.showCaps{
+	opacity: 100;
+}
+
+#captions h2{
+	background-color: #DDD;
+	font-size: 5vmin;
+}
+
 .landing-box{
 	width: 50%;
-	padding: 20vh 0 0 0;
+	padding: 25vmin 0 0 0;
 	margin: auto;
 	text-align: center;
 }
 
+#overlay.bnw{
+	filter: grayscale(100%);
+}
+
+#emoji-box.show{
+	width: 80%;
+	padding: 30vh 0 0 0;
+	margin: auto;
+	text-align: center;
+}
+
+#emoji-box.show h1{
+	font-size: 12vh;
+}
+
 .landing-box h1{
 	font-size: 8vh;
-	font-family: 'Roboto', sans-serif;
 }
 
 .landing-box h5{
 	font-size: 3vh;
-	font-family: 'Roboto', sans-serif;
 	font-style: italic;
+}
+
+#landing{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#landing.fade{
+	opacity: 0;
 }
 
 #play{
@@ -30,13 +97,14 @@ canvas {
 }
 
 #play p{
-	font-size: 10vh;
+	font-size: 5vw;
 	color: black;
 	transition: 0.5s;
 	cursor: pointer;
 }
 
 #play p:hover{
-	color: #fff305;
+	text-shadow: 0 0 30px #fff305;
 	transition: 0.5s;
 }
+
