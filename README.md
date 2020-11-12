@@ -1,6 +1,6 @@
 # One of Those Days
 
-[mjvar.github.io/one-of-those-days](mjvar.github.io/one-of-those-days)
+[mjvar.github.io/one-of-those-days](https://mjvar.github.io/one-of-those-days/)
 
 <img src="landing.png" width="600px">
 
@@ -24,7 +24,7 @@ Logic has powerful automation, synth, and EQ features, so I took advantage of th
 
 <img src="automation.png" width="600px">
 
-Conceptually, it was quite difficult to figure out how to draw contrast between "good" and "bad" mental health days. Since the project was being done on a tight schedule, we kind of had to just go ahead and record sounds, and then hope they would work together. Of course, we planned each sound we recorded, but that's still not quite the same as hearing the whole thing come together and then re-recording bits that might not work (which we didn't have time for). We realized, perhaps a bit too late, that the contrast between the two days wasn't incredibly clear. Throwing in weird sound effects in Day B was a good stopgap for this, though. The visuals also lessen the effort that listeners need to exert to understand the piece. I guess the [we'll fix it in post](https://www.urbandictionary.com/define.php?term=Fix%20It%20In%20Post) trope holds true even outside the film world.
+Conceptually, it was quite difficult to figure out how to draw contrast between "good" and "bad" mental health days. Since the project was being done on a tight schedule, we kind of had to just go ahead and record sounds, and then hope they would work together. Of course, we planned each sound we recorded, but that's still not quite the same as hearing the whole thing come together and then re-recording bits that might not work (which we didn't have time for). We realized, perhaps a bit too late, that the contrast between the two days wasn't incredibly clear. Throwing in weird sound effects in Day B was a good stopgap for this, though. The visuals also lessen the effort that listeners need to exert to understand the piece. I guess the [we'll fix it in post](https://www.urbandictionary.com/define.php?term=Fix%20It%20In%20Post) trope holds true even outside the film world. In short, though, the piece ended up being more atmospheric than inspirational – which I think is also a valid thing to go for!
 
 ### Reflection
 

@@ -47,12 +47,8 @@ function draw() {
 		drawSun();
 	}
 	else{
-		// Day A
+		// Day A or B
 		showSketch();
-	}
-	if(state == 2){
-		// Day B
-		filter(GRAY);
 	}
 }
 
@@ -70,7 +66,7 @@ function showSketch(){
 		// If not yet transitioned,
 		// smoothly move sun to start
 		if(time > 0){
-			time -= 0.4;
+			time -= 1;
 		}
 		else{
 			transitionDone = true;
@@ -128,6 +124,9 @@ function drawSky(){
 		}
 	}
 	background(currentSky[0],currentSky[1],currentSky[2]);
+	if(state == 2){
+		background(map(time, 0, 100, 150, 100));
+	}
 }
 
 function showEmoji(){
@@ -173,6 +172,7 @@ function showEmoji(){
 	else if(audioTime < 125){
 		// Transition from day A to day B
 		emojiBox.innerHTML = "";
+		goalTime = 0;
 		if(state == 1){
 			console.log("AAA");
 			state = 2;

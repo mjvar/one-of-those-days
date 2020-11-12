@@ -9,7 +9,7 @@ let cc = document.getElementById("cc");
 playButton.addEventListener('click', () => {
 	landing.classList.toggle('fade');
 	state = 1;
-	setTimeout(() => {  startAudio(); }, 2000);
+	setTimeout(() => {  startAudio(); }, 1000);
 });
 
 cc.addEventListener('click', () => {
