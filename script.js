@@ -7,7 +7,7 @@ let captions = document.getElementById("captions");
 let cc = document.getElementById("cc");
 
 playButton.addEventListener('click', () => {
-	landing.classList.toggle('fade');
+	landing.classList.add('fade');
 	state = 1;
 	setTimeout(() => {  startAudio(); }, 1000);
 });
@@ -22,6 +22,6 @@ player.addEventListener('timeupdate', () => {
 
 function startAudio(){
 	player.play();
-	emojiBox.classList.toggle('show');
+	emojiBox.classList.add('show');
     landing.parentNode.removeChild(landing);
 }

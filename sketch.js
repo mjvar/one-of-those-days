@@ -133,41 +133,47 @@ function showEmoji(){
 	// Show emojis as visual guides for audio
 	if(audioTime < 11){
 		emojiBox.innerHTML = "<h1>Day A</h1>";
-		captions.innerHTML = "<h2>Hi</h2>";
+		captions.innerHTML = "<h2>[Calm music playing]</h2>";
 	}
 	else if(audioTime < 17){
 		emojiBox.innerHTML = "<h1>⏰</h1>";
 		goalTime = 10;
-		captions.innerHTML = "<h2>asdf</h2>";
+		captions.innerHTML = "<h2>[Alarm sounds. Turning off the alarm]</h2>";
 	}
 	else if(audioTime < 30){
 		emojiBox.innerHTML = "<h1>🛁</h1>";
 		goalTime = 15;
-		captions.innerHTML = "<h2>Hasdfasdgi</h2>";
+		captions.innerHTML = "<h2>[Brushing teeth and sounds of water]</h2>";
 	}
 	else if(audioTime < 54){
 		emojiBox.innerHTML = "<h1>🧑‍🏫</h1>";
 		goalTime = 25;
+		captions.innerHTML = "<h2>[Logging into a Zoom class. Professor lecturing]</h2>";
 	}
 	else if(audioTime < 64){
 		emojiBox.innerHTML = "<h1>🗒️</h1>";
 		goalTime = 40;
+		captions.innerHTML = "<h2>[Writing notes]</h2>";	
 	}
 	else if(audioTime < 73){
 		emojiBox.innerHTML = "<h1>⌨️</h1>";
 		goalTime = 55;
+		captions.innerHTML = "<h2>[Keyboard typing]</h2>";
 	}
 	else if(audioTime < 86){
 		emojiBox.innerHTML = "<h1>📲</h1>";
 		goalTime = 67;
+		captions.innerHTML = "<h2>[Phone ringing]</h2>";
 	}
 	else if(audioTime < 98){
 		emojiBox.innerHTML = "<h1>🍽️</h1>";
 		goalTime = 80;
+		captions.innerHTML = "<h2>[Inviting to dinner]</h2>";
 	}
 	else if(audioTime < 110){
 		emojiBox.innerHTML = "<h1>📒</h1>";
 		goalTime = 93;
+		captions.innerHTML = "<h2>[Journaling outside]</h2>";
 	}
 	else if(audioTime < 125){
 		// Transition from day A to day B
@@ -179,42 +185,52 @@ function showEmoji(){
 			transitionDone = false;
 			filterBW.classList.toggle('bnw');
 		}
+		captions.innerHTML = "<h2>[Calm music stops]</h2>";
 	}
 	else if(audioTime < 132){
 		emojiBox.innerHTML = "<h1>Day B</h1>";
 		goalTime = 0;
+		captions.innerHTML = "<h2>[Anxious music playing]</h2>";
 	}
 	else if(audioTime < 138){
 		emojiBox.innerHTML = "<h1>⏰</h1>";
 		goalTime = 10;
+		captions.innerHTML = "<h2>[Alarm sounds. Someone knocks on the door and shouts]</h2>";
 	}
 	else if(audioTime < 145){
 		emojiBox.innerHTML = "<h1>🛁</h1>";
 		goalTime = 15;
+		captions.innerHTML = "<h2>[Brushing teeth and sounds of water]</h2>";
 	}
 	else if(audioTime < 162){
 		emojiBox.innerHTML = "<h1>🧑‍🏫</h1>";
 		goalTime = 35;
+		captions.innerHTML = "<h2>[Logging into Zoom class. Professor speaking in gibberish]</h2>";
 	}
 	else if(audioTime < 176){
 		emojiBox.innerHTML = "<h1>⌨️</h1>";
 		goalTime = 50;
+		captions.innerHTML = "<h2>[Keyboard typing. Overwhelming amount of message notifications]</h2>";
 	}
 	else if(audioTime < 198){
 		emojiBox.innerHTML = "<h1>📲</h1>";
 		goalTime = 67;
+		captions.innerHTML = "<h2>[Phone ringing without being picked up]</h2>";
 	}
 	else if(audioTime < 213){
 		emojiBox.innerHTML = "<h1>🍽️</h1>";
 		goalTime = 80;
+		captions.innerHTML = "<h2>[Microwaving food with TV playing on the background. Breaking a dish]</h2>";
 	}
 	else if(audioTime < 238){
 		emojiBox.innerHTML = "<h1>📒</h1>";
 		goalTime = 93;
+		captions.innerHTML = "<h2>[Journaling outside]</h2>";
 	}
 	else{
-		// Give listener restart link
-		emojiBox.innerHTML = "<h1><a href='example.com'>Restart</a></h1>"
+		// Go back
+		window.location.href = 'index.html';
 		goalTime = 100;
+		captions.innerHTML = "";
 	}
 }

@@ -8,7 +8,7 @@ canvas {
 }
 
 #cc {
-	background-color:#DDD;
+	background: rgba(221,221,221,0.4);
 	border-radius:14px;
 	position: fixed;
 	top: 1vh;
@@ -21,10 +21,11 @@ canvas {
 	padding:9px 9px;
 	text-decoration:none;
 	text-shadow:0px 1px 1px #383838;
+	transition: 0.3s;
 }
 
 #cc:hover {
-	background-color:#CCC;
+	background-color:#DDD;
 }
 
 #cc:active {
@@ -36,19 +37,25 @@ canvas {
 #captions{
 	position: fixed;
 	width: 100%;
-	bottom: 3vh;
+	bottom: 10vh;
 	text-align: center;
 	opacity: 0;
 	transition: 0.2s;
 }
 
 #captions.showCaps{
-	opacity: 100;
+	opacity: 1;
 }
 
 #captions h2{
-	background-color: #DDD;
-	font-size: 5vmin;
+	background: rgba(221,221,221,0.3);
+	font-size: 3vmin;
+	font-style: italic;
+	transition: 0.3s;
+}
+
+#captions h2:hover{
+	background: rgba(221,221,221,1);
 }
 
 .landing-box{
@@ -63,6 +70,15 @@ canvas {
 }
 
 #emoji-box.show{
+	opacity: 0;
+	width: 80%;
+	padding: 30vh 0 0 0;
+	margin: auto;
+	text-align: center;
+}
+
+#emoji-box.show{
+	opacity: 1;
 	width: 80%;
 	padding: 30vh 0 0 0;
 	margin: auto;
@@ -73,6 +89,22 @@ canvas {
 	font-size: 12vh;
 }
 
+/*#restart{
+	opacity: 0;
+}
+
+#restart.show{
+	opacity: 1;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% -50%);
+}
+
+#restart.show h1{
+	font-size: 12vh;
+}
+*/
 .landing-box h1{
 	font-size: 8vh;
 }
