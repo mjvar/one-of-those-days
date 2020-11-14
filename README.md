@@ -16,7 +16,7 @@ Amina and I both recorded the majority of the sounds on our own, which was fun. 
 
 On my end of the project, I worked on music, web dev, and some mastering. The web development aspect of this project was simple but time consuming. I did learn a few new Javascript tricks along the way (in particular, integrating p5.js with vanilla Javascript and with the DOM model, which will be very useful for future creative endeavors). Amina had the great idea of adding closed captions for hearing impaired people, so I learned about HTML injections using JS.
 
-Frustratingly, HTML links injected using Javascript do not work (at least, they didn't in my experience). After half an hour of fruitless Googling I ended up just making the page refresh, which isn't ideal but oh well.
+Frustratingly, HTML links injected using Javascript do not work (at least, they didn't in my experience). This meant I couldn't add a restart button at the end of the audio piece. After half an hour of fruitless Googling I ended up just making the page refresh, which isn't ideal but oh well.
 
 I wrote a bunch of music for the piece in 2 days, which is probably the fastest I've ever written any musical thing without hating the end product. I'm not quite sure if that's because I learned to work quicker or my standards lowered because of the looming deadline, but I think the music at least supports the different themes in each day, so I'm satisfied.
 
